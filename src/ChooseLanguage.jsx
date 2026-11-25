@@ -1,7 +1,6 @@
 import { useI18nContext } from './I18nContext';
 
 export default function ChooseLanguage() {
-  // מחלצים מהקונטקסט רק את פונקציית השינוי (destructuring)
   const { setLanguage } = useI18nContext();
 
   return (
